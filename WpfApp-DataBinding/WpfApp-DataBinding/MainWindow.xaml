@@ -1,0 +1,44 @@
+﻿<Window x:Class="WpfApp2_DataBinding1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2_DataBinding1"
+        xmlns:menus="clr-namespace:WpfApp2_DataBinding1.Menus"
+        xmlns:ex="clr-namespace:WpfApp2_DataBinding1.Ex"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <menus:MainMenu HorizontalAlignment="Stretch" VerticalAlignment="Top"/>
+        <TextBlock Text="Data Binding Exercises" FontSize="16" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,20,0,0"/>
+        <TabControl Margin="10,50,0,0" HorizontalContentAlignment="Center" TabStripPlacement="Left">
+            <TabItem Header="Ex1">
+                <ex:Ex1  Margin="10,0,0,0"/>
+            </TabItem>
+            <TabItem Header="Ex2">
+                <ex:Ex2/>
+            </TabItem>
+            <TabItem Header="Ex3">
+                <ex:Ex3/>
+            </TabItem>
+            <TabItem Header="Ex4">
+                <ex:Ex4/>
+            </TabItem>
+            <TabItem Header="Ex5">
+                <ex:Ex5/>
+            </TabItem>
+            <TabItem Header="Ex6">
+                <ex:Ex6/>
+            </TabItem>
+            <TabItem Header="Ex7">
+                <ex:Ex7/>
+            </TabItem>
+            <TabItem Header="Ex8">
+                <ex:Ex8/>
+            </TabItem>
+            <TabItem Header="Ex9">
+                <ex:Ex9/>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

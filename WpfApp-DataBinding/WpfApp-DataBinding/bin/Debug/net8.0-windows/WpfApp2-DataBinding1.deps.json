@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WpfApp2-DataBinding1/1.0.0": {
+        "runtime": {
+          "WpfApp2-DataBinding1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WpfApp2-DataBinding1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

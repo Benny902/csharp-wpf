@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp-DataBinding", "WpfApp-DataBinding\WpfApp-DataBinding.csproj", "{80B3E53E-24E5-485C-BA75-34EA20EEFD86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80B3E53E-24E5-485C-BA75-34EA20EEFD86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B3E53E-24E5-485C-BA75-34EA20EEFD86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B3E53E-24E5-485C-BA75-34EA20EEFD86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B3E53E-24E5-485C-BA75-34EA20EEFD86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {591BF366-6211-40C9-BB42-40AC7B9E99EA}
+	EndGlobalSection
+EndGlobal
